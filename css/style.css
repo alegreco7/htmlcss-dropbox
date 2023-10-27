@@ -2,4 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix::after{
+    display: block;
+    content: " ";
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+.text{
+    font-size: 17px;
+    font-weight: 500;
+}
+main h1{
+    font-size: 35px;
+}
+
+/* HEADER */
+
+header{
+    background-color: #fff;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    line-height: 70px;
 }
