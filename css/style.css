@@ -433,4 +433,30 @@ section{
     color: #333;
     padding: 10px 90px;
 }
+/* QUESTIONS */
+.question-section{
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.question-box{
+    margin-top: 50px;
+    border-top: 2px solid  #ccc;
+}
 
+.question{
+    height: 120px;
+    font-size: 20px;
+    border-top: 2px solid  #ccc;
+    border-bottom: 2px solid  #ccc;
+    line-height: 120px;
+    font-weight: bold;
+}
+.question::after{
+    font-family: "Font Awesome 5 Free";
+    content: "\f107";
+    font-weight: 900;
+    float: right;
+    padding-right: 80px;
+    color: #222;
+}
