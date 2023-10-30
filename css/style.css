@@ -290,7 +290,6 @@ section{
     width: 50%;
     padding: 80px;
 }
-
 .row-text div{
     margin-top: 30px;
     font-size: 20px;
@@ -300,5 +299,35 @@ section{
     background-color: #fff;
     border: 2px solid #555;
     color: #555;
+}
+/* GRIGLIA */
+.centro{
+    margin: 0px 90px;
+}
+.row .riquadro{
+    margin-top: 70px;
+}
+
+.row h1{
+    font-size: 40px;
+}
+
+.riquadro{
+    width: calc(100% / 3 - 60px);
+    height: 600px;
+}
+.riquadro img{
+    width: 100%;
+    background: center;
+}
+.riquadro h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.riquadro div{
+    font-size: 18px;
+}
+.riquadro div span{
+    text-decoration: underline;
 }
 
