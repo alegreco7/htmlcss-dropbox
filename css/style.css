@@ -407,3 +407,30 @@ section{
 .yellow{
     background-color: #ffd600;
 }
+.company-footer{
+    width: 100%;
+    height: 400px;
+    padding: 150px 0px;
+    background-color: #add1ea;
+}
+.company-footer-content{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.company-footer-content h1{
+    font-size: 40px;
+    width: 600px;
+    color: #6b002b;
+}
+
+.company-footer-content .pulsante{
+    text-align: center;
+    margin-top: 25px;
+}
+.company-footer-content .pulsante a{
+    background-color: #eee;
+    color: #333;
+    padding: 10px 90px;
+}
+
