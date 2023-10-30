@@ -307,11 +307,6 @@ section{
 .row .riquadro{
     margin-top: 70px;
 }
-
-.row h1{
-    font-size: 40px;
-}
-
 .riquadro{
     width: calc(100% / 3 - 60px);
     height: 600px;
