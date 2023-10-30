@@ -338,4 +338,72 @@ section{
     font-weight: 500;
     text-decoration: underline;
 }
+/* TEAMS */
+.company{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: #eee;
+}
 
+.first-column{
+    width: 550px;
+    height: 550px;
+}
+.second-column{
+    width: calc(100% - 1100px);
+    height: 550px;
+    padding: 80px;
+}
+.second-column p{
+    line-height: 25px;
+    margin-bottom: 60px;
+}
+.second-column img{
+    width: 200px;
+    background: center;
+    margin-bottom: 50px;
+}
+.third-column{
+    width: 550px;
+    height: 550px;
+}
+.square{
+    width: 50%;
+    height: 50%;
+}
+
+.square img{
+    width: 50%;
+    background: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+}
+.green{
+    background-color: #94d595;
+    border: 10px solid #caeacb;
+}
+.purple{
+    background-color: #6b002b;
+}
+.cyan{
+    background-color: #0096d3;
+}
+.red{
+    background-color: #ff0000;
+}
+.orange{
+    background-color: #e90006;
+}
+.lightblue{
+    background-color: #add1ea;
+}
+.blue{
+    background-color: #022486;
+}
+.yellow{
+    background-color: #ffd600;
+}
